@@ -1,5 +1,4 @@
-// Citation: Crockford, Douglas. JavaScript: The Good Parts: The Good
-// Parts(Chapter 1). O'Reilly Media. Kindle Edition. 
+// Citation: Crockford, Douglas. JavaScript: The Good Parts(Chapter 2). O'Reilly Media. Kindle Edition. 
 
 // 1. Avoid `/*...*/` comments - not just because of the issues have run into
 //    but ALSO in the event that you are using RegEx
