@@ -1,5 +1,3 @@
-// Citation: Crockford, Douglas. JavaScript: The Good Parts(Chapter 2). O'Reilly Media. Kindle Edition. 
-
 // 1. Avoid `/*...*/` comments - not just because of the issues have run into
 //    but ALSO in the event that you are using RegEx
 // 2. Unlike most other languages, Javascript has only 1 integer type, similar
@@ -134,13 +132,3 @@
 // let a = b + 7
 // console.log(a) // returns NaN
 // var b = 5; // Declare x
-
-// 15. Definition of objects:
-
-// * Aside from the data types numbers, strings, booleans, null, and undefined ALL other values are objects.
-
-// ** number, strings, and booleans are "object-like" in that they have methods BUT unlike objects, they are immutable
-
-// *** Objects are "mutable keyed collections"
-
-// **** The quotes around a property's name in an object literal are optional if the name would be a legal Javascript name and not a reserved word.
