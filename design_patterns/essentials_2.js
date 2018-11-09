@@ -55,10 +55,10 @@ for (let i = 0, max = arr2.length; i < max; i++) {
 
 // Example of what not to do:
 
-if (typeof Object.prototype.awesomeMethodIWrote !== "function"){
-  Object.prototype.awesomeMethodIWrote = function () {
+if (typeof Object.prototype.awesomeMethodIWrote !== "function") {
+  Object.prototype.awesomeMethodIWrote = function() {
     // function code...
-  }
+  };
 }
 
 // 9. Switch Statements: Always include a default: switch at the end of your SS,
@@ -73,6 +73,24 @@ if (typeof Object.prototype.awesomeMethodIWrote !== "function"){
 //     This discussion is helpful as well:
 //     https://stackoverflow.com/questions/6479236/calculate-string-value-in-javascript-not-using-eval
 
-// 12. 
+// 12. ALWAYS specify the radix (2nd) parameter when using parseInt()
 
+// 13. In general, don't use short-hand notation which is going to make code
+//     harder to read OR harder to update.
 
+// 14. Always place opening curly braces on the same line as the function/return
+//     statement it corresponds to
+
+// 15. Naming Conventions:
+
+// 15a. Use `upper camel case` with Constructors -- e.g. PomodoroClock()
+// 15b. Use `lowel camel case` with functions/methods/properties -- e.g. initClock()
+// 15c. Use `lower case + underscores` for variables -- e.g. current_time
+// 15d. Use all caps for constant variables -- e.g. WIDTH = 10px, HEIGHT = 40px
+// 15e. Use underscore prefix for private methods -- p.29
+
+// 16. Writing Comments: 
+
+// 16a. Checkout recommendations on auto generated API docs by following special
+//     commenting syntax WHILE you code. Then when you are done programming,
+//     your documentation is for the most part complete!
